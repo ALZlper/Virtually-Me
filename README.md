@@ -1,5 +1,5 @@
 # flomoraBot
 
-Ein Discord Bot
+A Discord Bot
 
 Needs: https://github.com/teamreflex/DiscordPHP
