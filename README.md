@@ -1,0 +1,3 @@
+# flomoraBot
+
+Ein Discord Bot
