@@ -9,7 +9,7 @@
     use Discord\Discord;
     
     $discord = new Discord([
-        'token' => 'NDAxODQyMDY3MjE2NTMxNDU2.DTwG9g.UZhrLsVTzRaEt13_2R-KvyQ8MW0',
+        'token' => '<yourToken>',
     ]);
     
     $discord->on('ready', function ($discord) {
@@ -118,7 +118,7 @@
 
     function cleverBot($message) {
         $url = "https://www.cleverbot.com/getreply";
-        $key = "CC6eeDvHLcZIw6TxqmA61scnhZg";
+        $key = "<yourKey>";
         $input = $message->content;
         $input = str_replace("bot", "", $input);
         $input = str_replace("+ ", "", $input);
